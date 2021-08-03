@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Telefonos</title>
+</head>
+<body><!-- Header -->    
+    <header class="header" id="header">
+        <nav class="nav">
+            <div class="navcenter container">
+                <div class="logo">
+                    <h1>Telefonos</h1>
+                </div>
+                <div class="navmenu">
+                    <ul class="navlist">
+                        <li class="navitem">
+                            <a href="#new" class="navlink">Nuevos</a>
+                        </li>                        
+                        <li class="navitem">
+                            <a href="#all" class="navlink">Productos</a>
+                        </li>                        
+                        <li class="navitem">
+                            <a href="#featured" class="navlink">Destacados</a>
+                        </li>                        
+                    </ul>
+                    <div class="cart" id="cart-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                            <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>                           
+                        </svg> 
+                        <span class="badge" id="badge-count">0</span>                    
+                    </div>
+                </div>
+            </div>
+            <div class="contain"> <!--shopping-cart -->
+                <div class="shopping-cart" id="carrito">  
+                    <ul id="shopping-cart-items">                      
+                    </ul>
+                    <div class="shopping-cart-footer">                        
+                        <div class="shopping-cart-total">
+                            <span class="total">Total: $</span>
+                            <span id="totalprice">0</span>
+                        </div>
+                    </div>                     
+                    <a href="#" class="button portbtn" id="cartItemsBuy">Comprar</a>
+                </div> <!--end shopping-cart -->
+            </nav>             
+            <div class="port"><!-- cover -->
+                <div class="portcenter container">
+                    <div class="portleft">
+                        <h1>S21 Ultra</h1>
+                        <p>Épico.En todos los sentidos.</p>
+                        <a href="#" class="button portbtn" id="buyCoverItem">Comprar</a>
+                    </div>                
+                    <div class="portright">
+                    </div>
+                </div>
+            </div>
+        </header>        
+        <main><!-- Products section-->
+            <section class="section" id="new"><!-- NEW SECTION-->
+                <div class="new_center container">
+                    <div class="title">                        
+                        <h1>Nuevos</h1>
+                    </div>
+                    <div class="product_center" id="new_products"> 
+                        <!-- products                  -->
+                    </div>
+                </div>
+            </section>
+            <section class="section" id="all"><!-- ALL SECTION-->
+                <div class="all_center container">
+                    <div class="title">                        
+                        <h1>Todos</h1>
+                    </div>
+                    <div class="itemsMenu">
+                        <select name="select-order-items" class="searchBarStyle" id="select-order">
+                            <option value=""> Ordenar: </option>
+                            <option value="lowFirst">Precio menor a mayor</option>
+                            <option value="highFirst">Precio mayor a menor</option>                     
+                        </select>                
+                        <div id="search-div">
+                            <span>Buscar: </span>
+                            <input type="text" class="searchBarStyle" id="search">
+                            <button id="clear">Limpiar</button>
+                        </div>       
+                    </div>         
+                    <div class="product_center" id="all_products">
+                        <!-- products                  -->
+                    </div>
+                </div>
+            </section>
+            <section class="section" id="featured">
+                <div class="new_center container">
+                    <div class="title"><!-- FEATURED SECTION-->                        
+                        <h1>Productos Destacados</h1>
+                    </div>
+                    <div class="product_center" id="feat_products">
+                        <!-- products                  -->
+                    </div>
+                </div>
+            </section>
+        </main>
+        <div id="svgTop">
+            <img src="/images/gototop.svg" alt="goToTop" srcset="" >
+        </div>
+        <script src="/js/app.js"></script>
+        <script src="/js/cart.js"></script>
+</body>
+</html>

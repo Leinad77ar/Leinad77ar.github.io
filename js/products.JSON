@@ -1,0 +1,100 @@
+[
+  {
+    "id": 1,
+    "img": "./images/product1.png",
+    "model": "Motorola G100",
+    "price": 79999,
+    "section": "new"
+  },
+  {
+    "id": 2,
+    "img": "./images/product2.png",
+    "model": "Moto Razr",
+    "price": 129999,
+    "section": "new"
+  },
+  {
+    "id": 3,
+    "img": "./images/product3.png",
+    "model": "S21 Plus",
+    "price": 144999,
+    "section": "new"
+  },
+  {
+    "id": 4,
+    "img": "./images/product4.png",
+    "model": "S21 Ultra",
+    "price": 186999,
+    "section": "new"
+  },
+  {
+    "id": 1,
+    "img": "./images/product1.png",
+    "model": "Motorola G100",
+    "price": 79999,
+    "section": "all"
+  },
+  {
+    "id": 2,
+    "img": "./images/product2.png",
+    "model": "Moto Razr",
+    "price": 129999,
+    "section": "all"
+  },
+  {
+    "id": 3,
+    "img": "./images/product3.png",
+    "model": "S21 Plus",
+    "price": 144999,
+    "section": "all"
+  },
+  {
+    "id": 4,
+    "img": "./images/product4.png",
+    "model": "S21 Ultra",
+    "price": 186999,
+    "section": "all"
+  },
+  {
+    "id": 5,
+    "img": "./images/product5.png",
+    "model": "Samsung A01",
+    "price": 13999,
+    "section": "all"
+  },
+  {
+    "id": 6,
+    "img": "./images/product6.png",
+    "model": "Samsung A02",
+    "price": 20999,
+    "section": "all"
+  },
+  {
+    "id": 7,
+    "img": "./images/product7.png",
+    "model": "Note 20 Ultra",
+    "price": 195399,
+    "section": "all"
+  },
+  {
+    "id": 8,
+    "img": "./images/product8.png",
+    "model": "X Cover Pro",
+    "price": 76599,
+    "section": "feat"
+  },
+  {
+    "id": 9,
+    "img": "./images/product9.png",
+    "model": "LG Velvet",
+    "price": 84999,
+    "section": "feat"
+  },
+  {
+    "id": 10,
+    "img": "./images/product10.png",
+    "model": "Edge S. Ed.",
+    "price": 99999,
+    "section": "feat"
+  }
+]
