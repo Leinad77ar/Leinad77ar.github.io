@@ -1,9 +1,8 @@
 // CARRITO DE COMPRAS
-
 let totalCart = 0;
 let totalCartItems = 0;
 let cartArray;
-
+let cartLocalCount = 0;
 ////////// BOTON COMPRAR DE LA PORTADA
 $("#buyCoverItem").click(() => addToCart("S21 Ultra"));
 
@@ -60,9 +59,6 @@ function addToCart(itemProduct) {
     icon: "success",
     title: "Agregado al carrito!",
   });
-  // window.scrollTo(0, 0);
-  // $("#carrito").slideDown(1500);
-  // $("#shopping-cart-items li").fadeIn();
 }
 function refreshCart() {
   cartArray = [];
@@ -128,7 +124,6 @@ $("#cartItemsBuy").click(async () => {
             Se enviaron los detalles a: ${result.value.email}
             `
       ).then((e) => {
-        console.log(e);
         localStorage.clear("cart");
         location.reload();
       });

@@ -1,8 +1,10 @@
-//CARGA DE JSON CON PRODUCToS
-let cartLocalCount = 0;
+//CARGA DE JSON CON PRODUCTOS
 let newItems, allItems, featItems, everyItem;
 $(document).ready(function () {
-  getJson();
+  $.getJSON("/js/products.JSON", (r) => {
+    getItemArrays(r);
+  });
+  // getJson();
 });
 function getJson() {
   $.getJSON("/js/products.JSON", (r) => {
@@ -48,7 +50,6 @@ function renderProducts(items, section) {
   for (button of $(".purchase")) {
     button.onclick = (event) => {
       addToCart(event.target.parentNode.firstElementChild.innerHTML);
-      console.log(event.target.parentNode.firstElementChild.innerHTML);
     };
   }
 }
@@ -98,7 +99,6 @@ function findText() {
   if (newSearch.length >= 1) {
     renderProducts(newSearch, $("#all_products"));
   } else {
-    console.log("no hay resultados");
     popAlert.fire({
       icon: "error",
       title: "No hay resultados!",

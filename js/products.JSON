@@ -28,73 +28,143 @@
     "section": "new"
   },
   {
-    "id": 1,
+    "id": 5,
     "img": "./images/product1.png",
     "model": "Motorola G100",
     "price": 79999,
     "section": "all"
   },
   {
-    "id": 2,
+    "id": 6,
     "img": "./images/product2.png",
     "model": "Moto Razr",
     "price": 129999,
     "section": "all"
   },
   {
-    "id": 3,
+    "id": 7,
     "img": "./images/product3.png",
     "model": "S21 Plus",
     "price": 144999,
     "section": "all"
   },
   {
-    "id": 4,
+    "id": 8,
     "img": "./images/product4.png",
     "model": "S21 Ultra",
     "price": 186999,
     "section": "all"
   },
   {
-    "id": 5,
+    "id": 9,
     "img": "./images/product5.png",
     "model": "Samsung A01",
     "price": 13999,
     "section": "all"
   },
   {
-    "id": 6,
+    "id": 10,
     "img": "./images/product6.png",
     "model": "Samsung A02",
     "price": 20999,
     "section": "all"
   },
   {
-    "id": 7,
+    "id": 11,
     "img": "./images/product7.png",
     "model": "Note 20 Ultra",
     "price": 195399,
     "section": "all"
   },
   {
-    "id": 8,
+    "id": 12,
     "img": "./images/product8.png",
     "model": "X Cover Pro",
     "price": 76599,
     "section": "feat"
   },
   {
-    "id": 9,
+    "id": 13,
     "img": "./images/product9.png",
     "model": "LG Velvet",
     "price": 84999,
     "section": "feat"
   },
   {
-    "id": 10,
+    "id": 14,
     "img": "./images/product10.png",
     "model": "Edge S. Ed.",
     "price": 99999,
     "section": "feat"
+  },
+  {
+    "id": 15,
+    "img": "./images/galaxy_a32.png",
+    "model": "Galaxy A32",
+    "price": 36999,
+    "section": "feat"
+  },
+  {
+    "id": 16,
+    "img": "./images/galaxy_a52.png",
+    "model": "Galaxy A52",
+    "price": 56999,
+    "section": "all"
+  },
+  {
+    "id": 17,
+    "img": "./images/galaxy_a72.png",
+    "model": "Galaxy S20 FE",
+    "price": 69999,
+    "section": "all"
+  },
+  {
+    "id": 18,
+    "img": "./images/galaxy_s20fe.png",
+    "model": "Galaxy A72",
+    "price": 71999,
+    "section": "all"
+  },
+  {
+    "id": 19,
+    "img": "./images/galaxya22.png",
+    "model": "Galaxy A22",
+    "price": 35299,
+    "section": "all"
+  },
+  {
+    "id": 20,
+    "img": "./images/moto_g30.png",
+    "model": "Moto G30",
+    "price": 33999,
+    "section": "all"
+  },
+  {
+    "id": 21,
+    "img": "./images/motog20.png",
+    "model": "Moto G20",
+    "price": 26999,
+    "section": "all"
+  },
+  {
+    "id": 22,
+    "img": "./images/galaxy_a02.png",
+    "model": "Galaxy A02s",
+    "price": 25999,
+    "section": "all"
+  },
+  {
+    "id": 23,
+    "img": "./images/lgk42.png",
+    "model": "LG K42",
+    "price": 24999,
+    "section": "all"
+  },
+  {
+    "id": 24,
+    "img": "./images/nokia2.4.png",
+    "model": "Nokia 2.4",
+    "price": 27599,
+    "section": "all"
   }
 ]
